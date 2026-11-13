@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "biggolem",
+  "version": "${version}",
+  "name": "Big Golem",
+  "description": "Spawn iron golems of any size (bigger or smaller) with a command. Golems can be frozen in place.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.biggolem.BigGolemMod"]
+  },
+  "mixins": ["biggolem.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
